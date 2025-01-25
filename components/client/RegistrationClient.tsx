@@ -25,7 +25,7 @@ export const Registration = () => {
         formdata.append("name", name);
         formdata.append("password", password);
         
-        const res = await fetch("https://spacifyapi.pythonanywhere.com/api/v1/clientcreate", {
+        const res = await fetch("https://mvr40.pythonanywhere.com/api/v1/clientcreate", {
             method: "POST",
             body: formdata
         });
