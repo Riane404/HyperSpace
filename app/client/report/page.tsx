@@ -18,7 +18,7 @@ export default function Page() {
 
 
     const res = await fetch(
-      `https://spacifyapi.pythonanywhere.com/api/v1/reportgen?email=${email}`
+      `https://mvr40.pythonanywhere.com/api/v1/reportgen?email=${email}`
     );
 
     if (res.status == 200) {
