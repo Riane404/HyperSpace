@@ -23,7 +23,7 @@ export const Login = () => {
     formdata.append("email", email);
     formdata.append("password", password);
 
-    const res = await fetch("https://spacifyapi.pythonanywhere.com/api/v1/clientlogin", {
+    const res = await fetch("https://mvr40.pythonanywhere.com/api/v1/clientlogin", {
         method: "POST",
         body: formdata,
       });
