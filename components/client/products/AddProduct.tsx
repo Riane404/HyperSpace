@@ -34,7 +34,7 @@ const AddProduct: FC = () => {
     formdata.append("client", client);
 
     const res = await fetch(
-      "https://spacifyapi.pythonanywhere.com/api/v1/addproduct",
+      "https://mvr40.pythonanywhere.com/api/v1/addproduct",
       {
         method: "POST",
         body: formdata,
